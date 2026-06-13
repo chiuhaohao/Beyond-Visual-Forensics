@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.log
+.env
+.env.*
+.DS_Store
+.idea/
+.vscode/
+
+# Generated outputs and local data
+outputs/
+results/
+generated_images/
