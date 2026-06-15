@@ -1,6 +1,6 @@
 # Beyond Visual Forensics: Auditing Multimodal Robustness for Synthetic Medical Image Detection
 
-This repository contains the evaluation code and prompt used for medical image manipulation detection. The evaluator supports both image-only and multimodal settings.
+This repository contains the evaluation code and prompt used for synthetic medical image detection. The evaluator supports both image-only and multimodal settings.
 
 - `FINAL ANSWER`: prediction based on the image and metadata in multimodal mode.
 - `VISUAL VERDICT`: prediction based only on the image.
@@ -53,7 +53,7 @@ python run_evaluation.py \
   --max_new_tokens 4096
 ```
 
-In image-only mode, `--json_dir` is used only to match the retained NIH ChestX-ray14 image IDs; metadata is not included in the model prompt.
+In image-only mode, `--json_dir` is used only to match the retained image IDs; metadata is not included in the model prompt.
 
 The prompt is loaded automatically from `prompts.py`. Predictions and raw model responses are written to the JSON file specified by `--out_json`.
 
