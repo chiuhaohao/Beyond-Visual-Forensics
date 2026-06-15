@@ -120,3 +120,7 @@ python generate_counterfactuals.py \
 ## Data Release
 
 Generated images are not redistributed to avoid ambiguity around derivative medical-image redistribution and source-dataset licensing. We release the retained image IDs, prompts, target labels, metadata variants, generation code, evaluation code, and results to support reproducibility.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details. Note that the source datasets (NIH ChestX-ray14, ISIC2019) are subject to their own licensing terms.
